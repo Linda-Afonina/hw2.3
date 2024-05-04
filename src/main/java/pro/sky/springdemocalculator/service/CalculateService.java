@@ -1,6 +1,6 @@
-package pro.sky.springdemocalculator;
+package pro.sky.springdemocalculator.service;
 
-public interface ICalculateService {
+public interface CalculateService {
     String getSum(Integer userNum1, Integer userNum2);
 
     String getDifference(Integer userNum1, Integer userNum2);

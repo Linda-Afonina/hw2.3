@@ -1,9 +1,10 @@
-package pro.sky.springdemocalculator;
+package pro.sky.springdemocalculator.service.impl;
 
 import org.springframework.stereotype.Service;
+import pro.sky.springdemocalculator.service.CalculateService;
 
 @Service
-public class CalculateService implements ICalculateService {
+public class CalculateServiceImpl implements CalculateService {
 
     public String getSum(Integer userNum1, Integer userNum2) {
         if (userNum1 == null || userNum2 == null) {

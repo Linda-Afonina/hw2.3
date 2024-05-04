@@ -1,13 +1,10 @@
-package pro.sky.springdemocalculator;
+package pro.sky.springdemocalculator.service.impl;
 
 import org.springframework.stereotype.Service;
+import pro.sky.springdemocalculator.service.HelloService;
 
 @Service
-public class HelloService implements IHelloService {
-
-    public String hello() {
-        return "Это калькулятор";
-    }
+public class HelloServiceImpl implements HelloService {
 
     public String helloInCalculator() {
         return "Добро пожаловать в калькулятор";
